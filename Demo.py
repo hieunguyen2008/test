@@ -2,7 +2,7 @@ import time
 import serial.tools.list_ports
 
 try:
-    ser = serial.Serial(port = "COM12", baudrate = 9600)
+    ser = serial.Serial(port = "/dev/ttyAMA2", baudrate = 9600)
     print("Open COM successfully")
 except:
     print('Can not open the port')
@@ -70,6 +70,31 @@ def readMoisture():
 ser.write(relay1_ON)
 time.sleep(2)
 ser.write(relay1_OFF)
+time.sleep(2)
+
+ser.write(relay2_ON)
+time.sleep(2)
+ser.write(relay2_OFF)
+time.sleep(2)
+
+ser.write(relay3_ON)
+time.sleep(2)
+ser.write(relay3_OFF)
+time.sleep(2)
+
+ser.write(relay4_ON)
+time.sleep(2)
+ser.write(relay4_OFF)
+time.sleep(2)
+
+ser.write(relay5_ON)
+time.sleep(2)
+ser.write(relay5_OFF)
+time.sleep(2)
+
+ser.write(relay6_ON)
+time.sleep(2)
+ser.write(relay6_OFF)
 time.sleep(2)
 
 # while True:
