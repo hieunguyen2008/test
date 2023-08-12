@@ -82,7 +82,7 @@ print("Xong relay2")
 ser.write(relay3_ON)
 time.sleep(2)
 ser.write(relay3_OFF)
-time.sleep(2
+time.sleep(2)
 print("Xong relay3")
 
 ser.write(relay4_ON)
