@@ -71,31 +71,37 @@ ser.write(relay1_ON)
 time.sleep(2)
 ser.write(relay1_OFF)
 time.sleep(2)
+print("Xong relay1")
 
 ser.write(relay2_ON)
 time.sleep(2)
 ser.write(relay2_OFF)
 time.sleep(2)
+print("Xong relay2")
 
 ser.write(relay3_ON)
 time.sleep(2)
 ser.write(relay3_OFF)
-time.sleep(2)
+time.sleep(2
+print("Xong relay3")
 
 ser.write(relay4_ON)
 time.sleep(2)
 ser.write(relay4_OFF)
 time.sleep(2)
+print("Xong relay4")
 
 ser.write(relay5_ON)
 time.sleep(2)
 ser.write(relay5_OFF)
 time.sleep(2)
+print("Xong relay5")
 
 ser.write(relay6_ON)
 time.sleep(2)
 ser.write(relay6_OFF)
 time.sleep(2)
+print("Xong relay6")
 
 # while True:
 #     print("TEST RELAY")
